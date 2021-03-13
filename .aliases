@@ -1,0 +1,35 @@
+alias ..='cd ..'
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+alias ~='cd ~'
+
+alias vi='nvim'
+alias g='git'
+
+alias ls='ls -Fh --color=auto --group-directories-first'
+alias grep='grep --color=auto'
+alias l='ls -l'
+alias la='ls -lA'
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias mkdir='mkdir -v'
+alias rm='rm -i'
+alias rmf='rm -rf'
+alias uptime='uptime -p'
+
+alias dl='cd ~/Downloads && ls -lA'
+alias doc='cd ~/Documents && ls -lA'
+
+alias :q='exit'
+alias help='man'
+alias quit='exit'
+
+alias hist='\history -E'
+
+alias containers='cd $HOME/Documents/docker/containers/'
+alias mariadb='cd $HOME/Documents/docker/containers/mariadb/'
+alias traefik='cd $HOME/Documents/docker/containers/traefik/'
+alias home='cd $HOME'
+alias nvimdir='cd $HOME/.config/nvim'
